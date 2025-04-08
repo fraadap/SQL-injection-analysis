@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+}
+.form-group {
+    position: relative;
+}
+.form-control {
+    height: 45px;
+    padding-left: 45px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    transition: all 0.3s;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+.form-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: all 0.3s;
+}
+.form-control:focus + i {
+    color: #007bff;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.login-container a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.login-container a:hover {
+    color: #0056b3;
+}
