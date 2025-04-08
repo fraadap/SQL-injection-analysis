@@ -162,4 +162,6 @@ A comprehensive academic project demonstrating **SQL Injection (SQLi)** attacks,
 ---
 
 **👨💻 Author**: Francesco D’Aprile   
-**🎓 Academic Year**: 2023/2024
+**🎓 Academic Year**: 2023/2024ù
+
+## Details are in italian documentation in '\doc ita' 
